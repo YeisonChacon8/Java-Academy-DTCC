@@ -40,22 +40,25 @@ public class BasicArithmetic {
     }
 
     public static int add(int x, int y) {
-        return 0;
+
+        return x+y;
     }
 
     public static int subtract(int x, int y) {
-        return 0;
+
+        return x-y;
     }
 
     public static int multiply(int x, int y) {
-        return 0;
+
+        return x*y;
     }
 
     public static int divide(int x, int y) {
-        return 0;
+        return y/x;
     }
 
     public static int remainder(int x, int y) {
-        return 0;
+        return y % x;
     }
 }

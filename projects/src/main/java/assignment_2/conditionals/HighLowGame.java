@@ -7,7 +7,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class HighLowGame {
 
-    public static void main (String args[]) throws IOException {
+    public static void main (String my_args[]) throws IOException {
 
         BufferedReader reader = new BufferedReader(
                 new InputStreamReader(System.in));

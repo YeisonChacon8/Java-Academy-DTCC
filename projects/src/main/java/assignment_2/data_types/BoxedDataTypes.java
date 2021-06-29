@@ -9,5 +9,8 @@ public class BoxedDataTypes {
         Integer i_1 = 0;
         // versus
         int i_2 = 0;
+
+        if (i_1.equals(i_2))
+            System.out.println("Same");
     }
 }

@@ -5,14 +5,18 @@ public class VariableScope {
         example_1();
 
         // Question 1, does i exist at this point?
+            //No, it does not exist at this point.
         // If so can you uncomment this and the code will compile?
+            //No, it does not compile.
         // System.out.println(i);
 
         if(true) {
             int i = 0;
         }
         // Question 2, does i exist at this point?
+                //No, it does not exist at this point.
         // If so can you uncomment this and the code will compile?
+                //No, it does not compile.
         // System.out.println(i);
     }
 
